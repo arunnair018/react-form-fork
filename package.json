@@ -1,6 +1,6 @@
 {
-  "name": "react-form",
-  "version": "3.5.7",
+  "name": "@arun/react-form",
+  "version": "3.5.7-arun.0",
   "description": "React Form is a lightweight framework and utility for building powerful forms in React applications.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -24,18 +24,7 @@
     "buildDocs": "gitdocs build",
     "serveDocs": "serve docs-dist -p 3000"
   },
-  "authors": [
-    {
-      "name": "Joseph Puzzo",
-      "email": "jgpuzzo2@gmail.com",
-      "url": "http://joepuzzo.github.io"
-    },
-    {
-      "name": "Tanner Linsley",
-      "email": "tannerlinsley@gmail.com",
-      "url": "http://github.com/tannerlinsley"
-    }
-  ],
+  "authors": "Arun Nair <arunnair018@gmail.com>",
   "keywords": [
     "react",
     "reactjs",
@@ -51,7 +40,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-tools/react-form"
+    "url": "https://github.com/arunnair018/react-form-fork.git"
   },
   "license": "MIT",
   "dependencies": {

@@ -1,9 +1,28 @@
-# UNMAINTAINED
+# react-form@3.5.7 (Fork)
 
-## This library is no longer supported and has been deprecated in favor of the following libraries:
-- [React-Final-Form](https://github.com/final-form/react-final-form) - A superior libary offering similar and/or better functionality that the original react-form.
-- [Informed](https://joepuzzo.github.io/informed) - React-Form reimagined and rewritten from scratch by @joepuzzo, a previous maintainer of react-form
+This is a **private fork** of the react-form version 3.5.7 library.
+The original package is no longer maintained, and we rely on it heavily in our application.  
+This fork allows us to continue using the library with bug fixes, compatibility updates, and internal patches as needed.
 
-## Why did you do this?
+---
 
-Read our post-mortem article: ["React Form is dead!" A post-mortem.](https://medium.com/@tannerlinsley/react-form-is-dead-a-post-mortem-b4c0e8f35981)
+## 📌 Why this fork?
+- The official [`react-form`](https://www.npmjs.com/package/react-form) package is **end-of-life** and no longer maintained on npm.  
+- Our project depends on `react-form` for form handling.  
+- We maintain this fork to:
+  - Support our internal requirements.
+
+---
+
+## 🚀 Installation
+
+Install directly from GitHub:
+
+```bash
+npm install git+https://github.com/<your-org-or-username>/react-form-fork.git
+
+```
+💡 No import changes required — keep using:
+```
+import { Form, Text, TextArea } from "react-form";
+```

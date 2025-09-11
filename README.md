@@ -1,8 +1,9 @@
 # react-form@3.5.7 (Fork)
 
-This is a **private fork** of the react-form version 3.5.7 library.
-The original package is no longer maintained, and we rely on it heavily in our application.  
-This fork allows us to continue using the library with bug fixes, compatibility updates, and internal patches as needed.
+This is a **private-maintained fork** of the original [react-form](https://github.com/react-tools/react-form), based on **version 3.5.7**.
+
+The original package version is no longer maintained, but is still useful for our projects. 
+This fork allows us to apply internal fixes, maintain compatibility, and ensure stability in our applications.
 
 ---
 
@@ -19,10 +20,22 @@ This fork allows us to continue using the library with bug fixes, compatibility 
 Install directly from GitHub:
 
 ```bash
-npm install git+https://github.com/<your-org-or-username>/react-form-fork.git
+npm install https://github.com/arunnair018/react-form-fork.git
 
 ```
 💡 No import changes required — keep using:
 ```
 import { Form, Text, TextArea } from "react-form";
 ```
+
+## 🔧 Maintenance Notes
+
+This fork is pinned to react-form@3.5.7 as the baseline.
+
+Bug fixes, security patches, or compatibility updates may be added as required.
+
+Original package metadata (name: "react-form") is retained to ensure compatibility.
+
+## 🙏 Attribution
+
+This project is a fork of [react-form](https://github.com/react-tools/react-form), originally created and maintained by Tanner Linsley and contributors under the MIT License.

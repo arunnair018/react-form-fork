@@ -76,8 +76,6 @@
     "jsdom": "^11.6.0",
     "mocha": "^5.0.0",
     "mocha-webpack": "^1.0.1",
-    "nwb": "^0.21.2",
-    "nwb-sass": "^0.8.2",
     "prettier-eslint-cli": "^4.7.0",
     "react": "^16.2.0",
     "react-addons": "^0.9.1-deprecated",
